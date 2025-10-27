@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
 };
 module.exports = {
   output: 'export',
-  distDir: 'out',
+  distDir: 'build',
   images: {
     unoptimized: true,
   },
