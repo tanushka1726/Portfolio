@@ -76,7 +76,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>Node.js</li>
               <li>Express</li>
-              <li>PostgreSQL</li>
+              <li>MYSQL</li>
               <li>MongoDB</li>
             </ul>
           </motion.div>
@@ -116,31 +116,20 @@ export default function About() {
           initial="initial"
           animate="animate"
         >
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHoverSmall}
-          >
-            <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h3>
-            <p className="text-primary mb-2">Company Name • 2020 - Present</p>
-            <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Led development of multiple web applications using React and Node.js</li>
-              <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
-              <li>Mentored junior developers and conducted code reviews</li>
-            </ul>
-          </motion.div>
+          
           
           <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
-            <p className="text-primary mb-2">Previous Company • 2018 - 2020</p>
+            <h3 className="text-xl font-semibold mb-2">Frontend Developer</h3>
+            <p className="text-primary mb-2">Neura-Sync-Technologies • June-August</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Developed and maintained RESTful APIs</li>
+              <li>Manage the Team work remotely.</li>
               <li>Built responsive user interfaces with modern JavaScript frameworks</li>
-              <li>Optimized database queries improving performance by 40%</li>
+              <li>Worked on a Educational-Based website By using Nextjs and TailwindCss </li>
+             
             </ul>
           </motion.div>
         </motion.div>
@@ -164,14 +153,26 @@ export default function About() {
           animate="animate"
         >
           <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md mb-5"
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
-            <p className="text-primary mb-2">University Name • 2014 - 2018</p>
+            <h3 className="text-xl font-semibold mb-2">Bachelor of Computer Application</h3>
+            <p className="text-primary mb-2">Chaudhary Charan Singh University • 2023 - 2026</p>
+            <p className='text-secondary mb-1'>Institue of Management And Research</p>
             <p className="text-secondary">
-              Graduated with honors. Focused on software engineering and web development.
+              Pursuing and Focusing on software engineering and web development.
+            </p>
+          </motion.div>
+          <motion.div 
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md "
+            variants={fadeInUp}
+            {...cardHoverSmall}
+          >
+            <h3 className="text-xl font-semibold mb-2">Intermediate - 12th</h3>
+            <p className="text-primary mb-2">J.K.G School • 2022-2023</p>
+            <p className="text-secondary">
+              Completed by CBSE board and Achieved 80%.
             </p>
           </motion.div>
         </motion.div>

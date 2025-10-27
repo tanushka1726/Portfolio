@@ -16,7 +16,7 @@ export default function Hero() {
             {...scaleIn}
             transition={{ delay: 0.2 }}
           >
-            <Image src="/profile.avif" alt="Profile" width={100} height={100} className="rounded-full mb-4 w-32 h-32 object-cover ring-2 ring-primary" />
+            <Image src="/Profile.jpeg" alt="Profile" width={200} height={200} className="rounded-full mb-4 w-42 h-42 object-cover ring-2 ring-primary" />
           </motion.div>
           <motion.h1 
             className="text-4xl md:text-6xl font-bold mb-6"
@@ -28,7 +28,7 @@ export default function Hero() {
               {...fadeIn}
               transition={{ delay: 0.8 }}
             >
-              John Doe
+              Tanushka Goswami
             </motion.span>
           </motion.h1>
           <motion.p 
@@ -36,7 +36,7 @@ export default function Hero() {
             {...fadeInUp}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer | UI/UX Enthusiast | Open Source Contributor
+            Full Stack Developer | Open Source Contributor
           </motion.p>
           <motion.div 
             className="flex justify-center space-x-4 mb-8"
@@ -63,16 +63,7 @@ export default function Hero() {
             >
               <FaLinkedin />
             </motion.a>
-            <motion.a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <FaTwitter />
-            </motion.a>
+           
           </motion.div>
           <motion.div 
             className="flex flex-col md:flex-row justify-center gap-4"
