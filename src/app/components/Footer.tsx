@@ -10,7 +10,7 @@ export default function Footer() {
            
           </div>
           
-          <div className='flex justify-between'>
+          <div className='flex justify-center space-x-4'>
             <a
               href="https://github.com/tanushka1726"
               target="_blank"
