@@ -36,7 +36,14 @@ export const projects: Project[] = [
     demoLink: 'https://interview-prep-ai-1-q9kt.onrender.com/',
     image: '/projects/Interview-Prep.png',
   },
-
+{
+    title: 'An Air-bnb website',
+    description: 'A Full-stack accommodation booking web app where users can explore destinations, filter listings and host their own properties.',
+    technologies: [ "Express.js", "Node.js", "MongoDB"],
+    githubLink: 'https://github.com/tanushka1726/Flipkey.git',
+    demoLink: 'https://flipkey-5bie.onrender.com/listings',
+    image: '/projects/Wanderlust.png',
+  },
 
 
 
