@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     title: 'An Interview-Prep-Ai',
     description: 'AI-based Interview Preparation Platform built using the MERN stack.',
-    technologies: ["React.js", "Express.js", "Node.js", "MongoDB"],
+    technologies: ["React.js", "Express.js", "Node.js", "MongoDB","TailwindCss"],
     githubLink: 'https://github.com/tanushka1726/Interview-Prep-Ai.git',
     demoLink: 'https://interview-prep-ai-1-q9kt.onrender.com/',
     image: '/projects/Interview-Prep.png',
@@ -39,7 +39,7 @@ export const projects: Project[] = [
 {
     title: 'An Air-bnb website',
     description: 'A Full-stack accommodation booking web app where users can explore destinations, filter listings and host their own properties.',
-    technologies: [ "Express.js", "Node.js", "MongoDB"],
+    technologies: [ "Express.js", "Node.js", "MongoDB","BootStrap"],
     githubLink: 'https://github.com/tanushka1726/Flipkey.git',
     demoLink: 'https://flipkey-5bie.onrender.com/listings',
     image: '/projects/Wanderlust.png',
