@@ -90,9 +90,9 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
-              <li>Docker</li>
-              <li>AWS</li>
-              <li>CI/CD</li>
+              <li>Vs code</li>
+              
+              
             </ul>
           </motion.div>
         </motion.div>
