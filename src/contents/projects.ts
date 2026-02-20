@@ -4,7 +4,7 @@ import { Project } from "@/types";
 export const projects: Project[] = [
   {
     title: 'Task-Management-System',
-    description: 'A Readers platform built with Next.js, TypeScript, and Tailwind CSS.',
+    description: 'I built a secure and responsive task manager that allows users to register, log in, and manage their personal tasks with ease.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS','Postgresql','Node.js','Express.js'],
     githubLink: 'https://github.com/tanushka1726/task-management-frontend.git',
     demoLink: 'https://task-management-frontend-uc76.onrender.com',
@@ -13,7 +13,7 @@ export const projects: Project[] = [
 
   {
     title: 'Readers Platform',
-    description: 'I built a secure and responsive task manager that allows users to register, log in, and manage their personal tasks with ease.',
+    description: 'A Readers platform built with Next.js, TypeScript, and Tailwind CSS.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     githubLink: 'https://github.com/tanushka1726/react_next.git',
     demoLink: 'https://readerhere.netlify.app/',
